@@ -1,0 +1,52 @@
+﻿.frameBox{
+    width: 100%;
+    height:100%;
+    .frameFooter{
+        width: 100%;
+        // height:50px;
+        background:#fff;
+        border-top: 1px solid #ccc;
+    }
+    .frameContentr{
+        width: 100%;
+        // height: calc(~"100% - 50px");
+        overflow:hidden;
+        // overflow-y: auto;
+        // border: 1px solid pink;
+    }
+    .frameContentrPlus{
+        width: 100%;
+        height:100%;
+        overflow:hidden;
+        overflow-y: auto;
+    }
+}
+
+@media screen and (min-width: 320px){
+    .frameFooter{
+        height:42px;
+    }
+    .frameContentr{
+        height: calc(~"100% - 42px");
+    }
+}
+@media screen and (min-width: 375px){
+    .frameFooter{
+        height:50px;
+    }
+    .frameContentr{
+        height: calc(~"100% - 50px");
+    }
+}
+@media screen and (min-width: 414px){
+    .frameFooter{
+        height:55px;
+    }
+    .frameContentr{
+        height: calc(~"100% - 55px");
+    }
+}
+
+
+
+
